@@ -34,7 +34,6 @@ excerpt_separator: <!--more-->
 其实并不会，limit 重启的判断指标是container_memory_working_set_bytes，也即是容器真实使用内存量。但同时，我们也需要关注容器是否有非预期读写操作，导致大量使用页缓存，避免影响系统稳定
 
 ## 参考
-
-[https://help.aliyun.com/zh/prometheus/support/why-are-the-memory-values-obtained-in-containers-inconsistent](https://help.aliyun.com/zh/prometheus/support/why-are-the-memory-values-obtained-in-containers-inconsistent)
-[https://www.orchome.com/6745](https://www.orchome.com/6745)
-[https://help.aliyun.com/zh/arms/application-monitoring/developer-reference/memory-metrics#p-fn5-bew-0ll](https://help.aliyun.com/zh/arms/application-monitoring/developer-reference/memory-metrics#p-fn5-bew-0ll)
+- https://help.aliyun.com/zh/prometheus/support/why-are-the-memory-values-obtained-in-containers-inconsistent
+- https://www.orchome.com/6745
+- https://help.aliyun.com/zh/arms/application-monitoring/developer-reference/memory-metrics#p-fn5-bew-0ll
